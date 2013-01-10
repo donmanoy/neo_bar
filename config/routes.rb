@@ -1,4 +1,7 @@
 NeoBar::Application.routes.draw do
+  resources :products
+
+
   resources :inventories
 
 
